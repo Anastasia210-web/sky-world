@@ -1,12 +1,14 @@
 <template>
     <div>
 <Column title="Без статуса"/>
-<Column title="В работе"/>
+<ColumnAsk title="Нужно сделать"/>
     </div>
 </template>
 
 <script setup>
 import Column from './Column.vue';
+import ColumnAsk from './ColumnAsk.vue';
+
 
 
 </script>
