@@ -360,12 +360,12 @@
         <div class="header__block">
           <div class="header__logo _show _light">
             <a href="" target="_self"
-              ><img src="images/logo.png" alt="logo"
+              ><img src=".src/assets/logo.png" alt="logo"
             /></a>
           </div>
           <div class="header__logo _dark">
             <a href="" target="_self"
-              ><img src="images/logo_dark.png" alt="logo"
+              ><img src=".src/assets/logo_dark.png" alt="logo"
             /></a>
           </div>
           <nav class="header__nav">
