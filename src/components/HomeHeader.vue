@@ -1,6 +1,7 @@
 <template>
     <div>
-
+        
+<p>Шапка</p>
     </div>
 </template>
 
