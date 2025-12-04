@@ -3,10 +3,10 @@
 			<div class="container">
 				<div class="header__block">
 					<div class="header__logo _show _light">
-						<a href="" target="_self"><img src="./src/assets/logo.png" alt="logo"></a>
+						<a href="" target="_self"><img src="@/assets/logo.png" alt="logo"></a>
 					</div>
 					<div class="header__logo _dark">
-						<a href="" target="_self"><img src="./src/assets/logo_dark.png" alt="logo"></a>
+						<a href="" target="_self"><img src="@/assets/logo_dark.png" alt="logo"></a>
 					</div>
 					<nav class="header__nav">
 						<button class="header__btn-main-new _hover01" id="btnMainNew"><a href="#popNewCard">Создать новую задачу</a></button>
@@ -27,6 +27,10 @@
 		</header>
 </template>
 
-<script setup></script>
+<script setup>
+import '@/assets/main.css'
+</script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
