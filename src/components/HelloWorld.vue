@@ -1019,4 +1019,6 @@
 import '@/assets/main.css'
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+  
+</style>

@@ -1,19 +1,25 @@
 <template>
-			<div class="pop-exit" id="popExit">
-				<div class="pop-exit__container">
-					<div class="pop-exit__block">
-						<div class="pop-exit__ttl">
-							<h2>Выйти из аккаунта?</h2>
-						</div>
-						<form class="pop-exit__form" id="formExit" action="#">
-							<div class="pop-exit__form-group">
-								<button class="pop-exit__exit-yes _hover01" id="exitYes"><a href="modal/signin.html">Да, выйти</a> </button>
-								<button class="pop-exit__exit-no _hover03" id="exitNo"><a href="main.html">Нет, остаться</a> </button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
+  <div class="wrapper">
+    <div class="pop-exit" id="popExit">
+      <div class="pop-exit__container">
+        <div class="pop-exit__block">
+          <div class="pop-exit__ttl">
+            <h2>Выйти из аккаунта?</h2>
+          </div>
+          <form class="pop-exit__form" id="formExit" action="#">
+            <div class="pop-exit__form-group">
+              <button class="pop-exit__exit-yes _hover01" id="exitYes">
+                <a href="modal/signin.html">Да, выйти</a>
+              </button>
+              <button class="pop-exit__exit-no _hover03" id="exitNo">
+                <a href="main.html">Нет, остаться</a>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
@@ -78,12 +84,12 @@ ul li {
 .pop-exit__block {
   display: block;
   margin: 0 auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   max-width: 370px;
   width: 100%;
   padding: 50px 60px;
   border-radius: 10px;
-  border: 0.7px solid #D4DBE5;
+  border: 0.7px solid #d4dbe5;
   box-shadow: 0px 4px 67px -12px rgba(0, 0, 0, 0.13);
 }
 .pop-exit__ttl h2 {
@@ -97,7 +103,7 @@ ul li {
 .pop-exit__exit-yes {
   width: 153px;
   height: 30px;
-  background-color: #565EEF;
+  background-color: #565eef;
   border-radius: 4px;
   border: none;
   outline: none;
@@ -108,13 +114,13 @@ ul li {
   line-height: 21px;
   font-weight: 500;
   letter-spacing: -0.14px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 10px;
 }
 .pop-exit__exit-yes a {
   width: 100%;
   height: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,7 +130,7 @@ ul li {
   height: 30px;
   background-color: transparent;
   border-radius: 4px;
-  border: 0.7px solid var(--palette-navy-60, #565EEF);
+  border: 0.7px solid var(--palette-navy-60, #565eef);
   outline: none;
   display: flex;
   align-items: center;
@@ -133,12 +139,12 @@ ul li {
   line-height: 21px;
   font-weight: 500;
   letter-spacing: -0.14px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .pop-exit__exit-no a {
   width: 100%;
   height: 100%;
-  color: #565EEF;
+  color: #565eef;
   display: flex;
   align-items: center;
   justify-content: center;
