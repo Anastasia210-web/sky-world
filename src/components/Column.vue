@@ -1,4 +1,5 @@
 <template>
+  <main>
   <div class="container">
     <div class="main__block">
       <div class="main__content">
@@ -618,6 +619,7 @@
       </div>
     </div>
   </div>
+  </main>
 </template>
 
 <script setup lang="ts">
@@ -651,6 +653,25 @@ button,
 
 ul li {
   list-style: none;
+}
+._hover01:hover {
+  background-color: #33399b;
+}
+
+._hover02:hover, .header__user:hover {
+  color: #33399b;
+}
+._hover02:hover::after, .header__user:hover::after {
+  border-left-color: #33399b;
+  border-bottom-color: #33399b;
+}
+
+._hover03:hover {
+  background-color: #33399b;
+  color: #FFFFFF;
+}
+._hover03:hover a {
+  color: #FFFFFF;
 }
 
 @keyframes card-animation {
@@ -819,5 +840,24 @@ body {
     justify-content: stretch;
     padding: 15px 13px 19px;
   }
+}
+._orange {
+  background-color: #FFE4C2;
+  color: #FF6D00;
+}
+
+._green {
+  background-color: #B4FDD1;
+  color: #06B16E;
+}
+
+._purple {
+  background-color: #E9D4FF;
+  color: #9A48F1;
+}
+
+._gray {
+  background: #94A6BE;
+  color: #FFFFFF;
 }
 </style>
