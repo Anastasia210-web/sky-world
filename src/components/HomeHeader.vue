@@ -30,7 +30,34 @@
 <script setup>
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button,
+._btn {
+  cursor: pointer;
+  outline: none;
+}
+
+ul li {
+  list-style: none;
+}
+
 ._hover02:hover, .header__user:hover {
   color: #33399b;
 }
