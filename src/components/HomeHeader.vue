@@ -85,7 +85,12 @@ body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #000000;
 }
-
+.wrapper {
+  max-width: 100%;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
 .header {
   width: 100%;
   margin: 0 auto;
